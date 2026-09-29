@@ -8,6 +8,37 @@
         <link rel="stylesheet" href="./src/css/main.css" />
     </head>
     <body>
+        <div id="app">
+            <nav>
+                <div id="logo">MakerGo-X</div>
+            </nav>
+            <section id="create-films">
+                <form action="#" id="basic-form">
+                    <input type="text" placeholder="Film Title" id="film-title" required />
+                    <select id="film-genre" required>
+                        <option value="" disabled selected>Select Genre</option>
+                        <option value="action">Action</option>
+                        <option value="adventure">Adventure</option>
+                        <option value="comedy">Comedy</option>
+                        <option value="drama">Drama</option>
+                        <option value="mystery">Mystery</option>
+                        <option value="romance">Romance</option>
+                        <option value="science-fiction">Science Fiction</option>
+                        <option value="fantasy">Fantasy</option>
+                        <option value="thriller">Thriller</option>
+                        <option value="crime">Crime</option>
+                        <option value="documentary">Documentary</option>
+                        <option value="western">Western</option>
+                        <option value="animation">Animation</option>
+                        <option value="musical">Musical</option>
+                    </select>
+                    <textarea id="film-description" placeholder="Film Description" rows="5" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+            <section id="view-films"></section>
+        </div>
+
         <script type="module" src="./src/js/app.js"></script>
     </body>
 </html>
