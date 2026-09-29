@@ -4,6 +4,8 @@ export class Film {
         this.title = title;
         this.genre = genre;
         this.description = description;
+        this.sequences = [];
+        this.scenes = [];
         Film.allFilms.push(this);
     }
 }

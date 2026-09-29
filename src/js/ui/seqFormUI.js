@@ -22,4 +22,6 @@ export const generateSeqForm = () => {
 
     const createFilmsSection = document.getElementById("create-films");
     createFilmsSection.append(seqForm);
+
+    return { seqForm, seqTitle, seqDescription, submitSeqBtn };
 };
